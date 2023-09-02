@@ -1,0 +1,115 @@
+h1 {
+    color: #2391ff;
+}
+
+.miniImagem:hover {
+    cursor: pointer;
+    border: solid #2391ff 2px;
+}
+
+body {
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+  }
+.imagem {
+    padding: 15px;
+}
+
+.imagem>img {
+    width: calc(100%/4);
+    height: calccalc(100%/4);
+    border-radius: 5px;
+    border: solid #808080 1px;
+    padding: 10px;
+}
+
+.formulario {
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.input-form {
+    width: 55%;
+    border-radius: 5px;
+    border: solid 1px;
+    font-size: 16px;
+    font-weight: lighter;
+    height: 25px;
+    color: #808080;
+}
+
+.botao,.botao-voltar {
+    color: whitesmoke;
+    background-color: #2391ff;
+    font-size: medium;
+    border-radius: 2px;
+    border: none;
+    height: 28px;
+  }
+
+  .botao-voltar{
+    color: whitesmoke;
+    background-color: #2eccf3d4;
+  }
+
+
+  button:hover {
+    background-color: rgba(248, 247, 250, 0.718);
+    cursor: pointer;
+    color: #2391ff;
+  }
+
+.input-form:focus {
+    border: solid 1px #756868;
+}
+
+.imagem,
+.dados-card {
+    text-align: center;
+    padding: 10px;
+}
+
+.miniImagem {
+    width: calc(50%/4);
+    height: calc(50%/4);
+    border-radius: 3px;
+    border: solid #808080 1px;
+}
+
+.miniaturas {
+    padding: 20px;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+
+.aviso{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.579) !important;
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .msgAviso{
+    text-align: center;
+    background-color: #ffffff;
+    border: 'none';
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    border-radius: 5px;
+  }
